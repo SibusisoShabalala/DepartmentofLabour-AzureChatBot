@@ -10,3 +10,4 @@ Scaling to support growth
 Ability to make smart recommendations
 Language translation
 Use of machine vision to recognize users from pictures and to moderate content.
+Thank you.
