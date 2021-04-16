@@ -1,0 +1,8 @@
+<botcomponent schemaname="new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d">
+  <componenttype>0</componenttype>
+  <description>Help a user to apply for jobs</description>
+  <iscustomizable>1</iscustomizable>
+  <name>Online Jobs</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

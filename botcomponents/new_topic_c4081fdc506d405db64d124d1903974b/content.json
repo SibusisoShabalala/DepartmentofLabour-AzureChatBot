@@ -1,0 +1,669 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "UIF",
+        "Register for UIF"
+      ],
+      "dialogId": "new_topic_c4081fdc506d405db64d124d1903974b",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_c4081fdc506d405db64d124d1903974b",
+      "displayName": "UIF Registration",
+      "description": "",
+      "createdTime": "2021-03-18T11:51:14.6670659Z",
+      "updatedTime": "2021-03-18T22:38:39.4135525Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "b2853015-f2c2-4c2d-ad1f-3d155698b2fb",
+      "displayName": "Register"
+    },
+    {
+      "id": "1ccf97e7-7f66-42de-8136-41d92d8460c9",
+      "displayName": "Apply for your Unemployment Fund"
+    },
+    {
+      "id": "895bdff6-5b15-4f04-86de-a8c4ad4e2935",
+      "displayName": "South African ID"
+    },
+    {
+      "id": "4da5114d-1536-41e5-9e9e-e62a088076d2",
+      "displayName": "Passport Number"
+    },
+    {
+      "id": "84931e5e-00f4-4084-89ed-4031aa369759",
+      "displayName": "Email"
+    },
+    {
+      "id": "978189ca-a74d-4570-88dd-74f1313b931e",
+      "displayName": "SMS"
+    },
+    {
+      "id": "ea60bf99-8619-4a85-aadd-7227e84376d3",
+      "displayName": "Book for an appointment"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "12148020-047d-444e-9b72-2a92cd3c0bee",
+      "messageNodes": [
+        {
+          "botMessageId": "95dd1299-8f76-47cf-b0a5-bbd74af63556",
+          "nodeType": "BotMessageNode",
+          "id": "12148020-047d-444e-9b72-2a92cd3c0bee",
+          "defaultTargetNodeId": "3186f0ed-778e-41d7-9f93-7c4a9fce0e79"
+        },
+        {
+          "botMessageId": "ee681581-25a4-4066-b1e1-2af8cf54540d",
+          "nodeType": "BotMessageNode",
+          "id": "3186f0ed-778e-41d7-9f93-7c4a9fce0e79",
+          "defaultTargetNodeId": "f7b30028-82e2-4f91-83aa-ce89b97e9491"
+        },
+        {
+          "botMessageId": "3d4c8594-9b39-4846-a1e3-f31ee84f4d54",
+          "nodeType": "BotMessageNode",
+          "id": "59f0bf7f-20a8-4573-b539-baf72f42e65b",
+          "defaultTargetNodeId": "3c4f700b-707d-4df8-b2e8-d0b7201dd5ab"
+        }
+      ],
+      "actionNodes": [
+        {
+          "inputParameterVariableIdMap": {
+            "text": "{new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e}",
+            "text_1": "{new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a}"
+          },
+          "contextVariableId": "356acad7-4698-4794-82d8-c1c65cafb7f5",
+          "nodeType": "ActionNode",
+          "id": "cf2a1c10-ed73-4c5c-8277-c184bae89cac",
+          "defaultTargetNodeId": "59f0bf7f-20a8-4573-b539-baf72f42e65b"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_d72431f0cad643189e85045847b16422_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "3c4f700b-707d-4df8-b2e8-d0b7201dd5ab"
+        },
+        {
+          "targetDialogId": "new_topic_031cdc38b0c548cd9c91103811689f1d",
+          "nodeType": "DialogChangeNode",
+          "id": "7a26e4da-c65d-4d3b-95f9-da7ad43f9283"
+        },
+        {
+          "targetDialogId": "new_topic_07761e73540846cf96105c45829c3dd9",
+          "nodeType": "DialogChangeNode",
+          "id": "1e3b7c43-7a04-47f8-b236-b74abf4e23fd"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "00d2ed59-731e-49bb-bcf2-5daf31bbcb67",
+          "nodeType": "QuestionNode",
+          "id": "f7b30028-82e2-4f91-83aa-ce89b97e9491",
+          "routes": [
+            {
+              "expression": "@equals(parameters('00d2ed59-731e-49bb-bcf2-5daf31bbcb67'), 'b2853015-f2c2-4c2d-ad1f-3d155698b2fb')",
+              "targetNodeId": "754882e3-ede5-4bd5-86ad-415703fbd46d"
+            },
+            {
+              "expression": "@equals(parameters('00d2ed59-731e-49bb-bcf2-5daf31bbcb67'), '1ccf97e7-7f66-42de-8136-41d92d8460c9')",
+              "targetNodeId": "7a26e4da-c65d-4d3b-95f9-da7ad43f9283"
+            },
+            {
+              "expression": "@equals(parameters('00d2ed59-731e-49bb-bcf2-5daf31bbcb67'), 'ea60bf99-8619-4a85-aadd-7227e84376d3')",
+              "targetNodeId": "1e3b7c43-7a04-47f8-b236-b74abf4e23fd"
+            }
+          ],
+          "defaultTargetNodeId": "f7b30028-82e2-4f91-83aa-ce89b97e9491"
+        },
+        {
+          "contextVariableId": "new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e",
+          "nodeType": "QuestionNode",
+          "id": "754882e3-ede5-4bd5-86ad-415703fbd46d",
+          "defaultTargetNodeId": "42614d3d-ba48-470c-9a02-2d515c76b9e9"
+        },
+        {
+          "contextVariableId": "new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a",
+          "nodeType": "QuestionNode",
+          "id": "42614d3d-ba48-470c-9a02-2d515c76b9e9",
+          "routes": [
+            {
+              "expression": "@equals(parameters('new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a'), '32c0fe67-d7cf-4418-a128-d6b9bd6eb2dd')",
+              "targetNodeId": "f805382b-c709-4155-8b31-503987383b67"
+            },
+            {
+              "expression": "@equals(parameters('new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a'), '5bb5d321-1bcd-43ef-960b-e102b9f1164e')",
+              "targetNodeId": "f805382b-c709-4155-8b31-503987383b67"
+            },
+            {
+              "expression": "@equals(parameters('new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a'), '49053e9c-57f2-4af2-bd70-5f040a46cf7b')",
+              "targetNodeId": "f805382b-c709-4155-8b31-503987383b67"
+            }
+          ],
+          "defaultTargetNodeId": "42614d3d-ba48-470c-9a02-2d515c76b9e9"
+        },
+        {
+          "contextVariableId": "e093bb5a-ffd2-4ddd-9905-cc5bce1c082d",
+          "nodeType": "QuestionNode",
+          "id": "f805382b-c709-4155-8b31-503987383b67",
+          "routes": [
+            {
+              "expression": "@equals(parameters('e093bb5a-ffd2-4ddd-9905-cc5bce1c082d'), '895bdff6-5b15-4f04-86de-a8c4ad4e2935')",
+              "targetNodeId": "caa921d1-0c96-4d78-9792-0db8f2ff6611"
+            },
+            {
+              "expression": "@equals(parameters('e093bb5a-ffd2-4ddd-9905-cc5bce1c082d'), '4da5114d-1536-41e5-9e9e-e62a088076d2')",
+              "targetNodeId": "ff8d972d-1624-4557-9848-48dea82020c3"
+            }
+          ],
+          "defaultTargetNodeId": "f805382b-c709-4155-8b31-503987383b67"
+        },
+        {
+          "contextVariableId": "new_variable_d72431f0cad643189e85045847b16422_812aa6cfa4a24e768efb7fc70c6a2424",
+          "nodeType": "QuestionNode",
+          "id": "caa921d1-0c96-4d78-9792-0db8f2ff6611",
+          "defaultTargetNodeId": "46d8fa56-9349-4c94-93d4-44890709755d"
+        },
+        {
+          "contextVariableId": "def20cb6-ebc0-4d46-9c20-3af5b2a6fb26",
+          "nodeType": "QuestionNode",
+          "id": "ff8d972d-1624-4557-9848-48dea82020c3",
+          "defaultTargetNodeId": "e4b88b6b-5bce-43fe-b6f4-b2b9d5657486"
+        },
+        {
+          "contextVariableId": "f72e3383-b52e-4cdb-a133-b99935c7f31a",
+          "nodeType": "QuestionNode",
+          "id": "e4b88b6b-5bce-43fe-b6f4-b2b9d5657486",
+          "defaultTargetNodeId": "fd87b526-4a7b-440a-b6d0-471cec3db0bb"
+        },
+        {
+          "contextVariableId": "70cabb04-12c2-4748-a2eb-faf15fe9f403",
+          "nodeType": "QuestionNode",
+          "id": "fd87b526-4a7b-440a-b6d0-471cec3db0bb",
+          "defaultTargetNodeId": "67777126-aa3e-41bc-90f9-8a3cf7cf24ee"
+        },
+        {
+          "contextVariableId": "c4cc4f95-c58d-4c63-9272-539bc4d001ac",
+          "nodeType": "QuestionNode",
+          "id": "67777126-aa3e-41bc-90f9-8a3cf7cf24ee",
+          "defaultTargetNodeId": "46d8fa56-9349-4c94-93d4-44890709755d"
+        },
+        {
+          "contextVariableId": "bf8d27d5-dd91-43cf-a6f4-c01512ed45ca",
+          "nodeType": "QuestionNode",
+          "id": "46d8fa56-9349-4c94-93d4-44890709755d",
+          "routes": [
+            {
+              "expression": "@equals(parameters('bf8d27d5-dd91-43cf-a6f4-c01512ed45ca'), '84931e5e-00f4-4084-89ed-4031aa369759')",
+              "targetNodeId": "7dbafbc1-a744-4703-9f87-2ef1b416303c"
+            },
+            {
+              "expression": "@equals(parameters('bf8d27d5-dd91-43cf-a6f4-c01512ed45ca'), '978189ca-a74d-4570-88dd-74f1313b931e')",
+              "targetNodeId": "817c568a-566e-4606-82f6-726190ed8d60"
+            }
+          ],
+          "defaultTargetNodeId": "46d8fa56-9349-4c94-93d4-44890709755d"
+        },
+        {
+          "contextVariableId": "new_variable_d72431f0cad643189e85045847b16422_e3d1ba39e42841729b6e3ebcd5b8e7ec",
+          "nodeType": "QuestionNode",
+          "id": "7dbafbc1-a744-4703-9f87-2ef1b416303c",
+          "defaultTargetNodeId": "cf2a1c10-ed73-4c5c-8277-c184bae89cac"
+        },
+        {
+          "contextVariableId": "6bfa77da-8715-4309-99d0-ec98d045587f",
+          "nodeType": "QuestionNode",
+          "id": "817c568a-566e-4606-82f6-726190ed8d60",
+          "defaultTargetNodeId": "cf2a1c10-ed73-4c5c-8277-c184bae89cac"
+        }
+      ],
+      "id": "new_topic_c4081fdc506d405db64d124d1903974b",
+      "displayName": "Dialog for UIF Registration",
+      "createdTime": "2021-03-18T11:51:14.6670659Z",
+      "updatedTime": "2021-03-18T22:44:46.2395333Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "I can help you with that."
+        }
+      },
+      "id": "95dd1299-8f76-47cf-b0a5-bbd74af63556",
+      "createdTime": "2021-03-18T11:51:14.6670659Z",
+      "updatedTime": "2021-03-18T11:51:14.6670659Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "I will help you register for your UFI in few easy steps.\n\nHowever if you already registered with UIF you can simply simply apply for your Unemployment fun or book for an appointment."
+        }
+      },
+      "id": "ee681581-25a4-4066-b1e1-2af8cf54540d",
+      "createdTime": "2021-03-18T11:57:07.728Z",
+      "updatedTime": "2021-03-18T11:57:07.728Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please select the option you wish to continue with."
+        }
+      },
+      "id": "36a29080-816f-468c-9a97-44b1acbcbabc",
+      "createdTime": "2021-03-18T12:00:20.069Z",
+      "updatedTime": "2021-03-18T12:00:20.069Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your full name/s and surname as they appear on your ID document."
+        }
+      },
+      "id": "f5037016-e7f8-419f-959c-9ccb321661d6",
+      "createdTime": "2021-03-18T12:02:04.674Z",
+      "updatedTime": "2021-03-18T12:02:04.674Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please select your title."
+        }
+      },
+      "id": "327336bb-7710-4306-b419-1a66fdb74d9e",
+      "createdTime": "2021-03-18T12:04:14.131Z",
+      "updatedTime": "2021-03-18T12:04:14.131Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please select your Identity type"
+        }
+      },
+      "id": "23416faf-7d9c-4a96-8f96-89c2fe653365",
+      "createdTime": "2021-03-18T12:06:54.817Z",
+      "updatedTime": "2021-03-18T12:06:54.817Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter our ID number."
+        }
+      },
+      "id": "f1666a77-35f8-4f74-84dc-26fae889a219",
+      "createdTime": "2021-03-18T12:10:27.639Z",
+      "updatedTime": "2021-03-18T12:10:27.639Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What your country of origin?"
+        }
+      },
+      "id": "19006f14-50af-402f-997f-868b951699e8",
+      "createdTime": "2021-03-18T12:11:35.821Z",
+      "updatedTime": "2021-03-18T12:11:35.821Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your passport number"
+        }
+      },
+      "id": "a05ef574-5614-4990-9785-ffbaa858f135",
+      "createdTime": "2021-03-18T12:13:25.619Z",
+      "updatedTime": "2021-03-18T12:13:25.619Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your UIF Reference Number"
+        }
+      },
+      "id": "b31f3d24-f988-4f26-babb-476c344889fd",
+      "createdTime": "2021-03-18T12:15:20.162Z",
+      "updatedTime": "2021-03-18T12:15:20.162Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your date of birth"
+        }
+      },
+      "id": "f8271d22-6ff5-4ccd-af6c-b2abfd32850e",
+      "createdTime": "2021-03-18T12:17:33.362Z",
+      "updatedTime": "2021-03-18T12:17:33.362Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please select your Registration preferred contact."
+        }
+      },
+      "id": "9b5a761f-9133-4170-9f0a-f22062b4591d",
+      "createdTime": "2021-03-18T12:18:51.351Z",
+      "updatedTime": "2021-03-18T12:18:51.351Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "please enter your email address."
+        }
+      },
+      "id": "71b57af7-d22a-4a75-98a0-12c7454f5549",
+      "createdTime": "2021-03-18T12:22:57.377Z",
+      "updatedTime": "2021-03-18T12:22:57.377Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your phone number"
+        }
+      },
+      "id": "a780252e-bfcb-440c-a3c1-59d1a94b5a15",
+      "createdTime": "2021-03-18T12:24:12.816Z",
+      "updatedTime": "2021-03-18T12:24:12.816Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Congratulation {new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}, your application have been successfully received, you can"
+        }
+      },
+      "id": "3d4c8594-9b39-4846-a1e3-f31ee84f4d54",
+      "createdTime": "2021-03-18T17:49:52.195Z",
+      "updatedTime": "2021-03-18T17:49:52.195Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e}\",\"text_1\":\"{new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "7acae8ec-1088-eb11-a812-6045bd72626f",
+        "title": "UIFregistration",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "FullName",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Title",
+            "id": "text_1",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-03-18T17:39:54Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-03-18T20:26:43Z"
+      },
+      "id": "ed23c4b0-428b-46ad-81d6-84c2600ff18c",
+      "displayName": "UIFregistration",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-03-18T20:31:30.661Z",
+      "updatedTime": "2021-03-18T20:31:30.661Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "b2853015-f2c2-4c2d-ad1f-3d155698b2fb",
+        "1ccf97e7-7f66-42de-8136-41d92d8460c9",
+        "ea60bf99-8619-4a85-aadd-7227e84376d3"
+      ],
+      "messages": {
+        "GetValue": [
+          "36a29080-816f-468c-9a97-44b1acbcbabc"
+        ]
+      },
+      "isGlobal": false,
+      "id": "00d2ed59-731e-49bb-bcf2-5daf31bbcb67",
+      "displayName": "Var",
+      "createdTime": "2021-03-18T12:00:20.069Z",
+      "updatedTime": "2021-03-18T12:00:20.069Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "895bdff6-5b15-4f04-86de-a8c4ad4e2935",
+        "4da5114d-1536-41e5-9e9e-e62a088076d2"
+      ],
+      "messages": {
+        "GetValue": [
+          "23416faf-7d9c-4a96-8f96-89c2fe653365"
+        ]
+      },
+      "isGlobal": false,
+      "id": "e093bb5a-ffd2-4ddd-9905-cc5bce1c082d",
+      "displayName": "IDT",
+      "createdTime": "2021-03-18T12:06:54.817Z",
+      "updatedTime": "2021-03-18T12:06:54.817Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "CountryOrRegion",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "19006f14-50af-402f-997f-868b951699e8"
+        ]
+      },
+      "isGlobal": false,
+      "id": "def20cb6-ebc0-4d46-9c20-3af5b2a6fb26",
+      "displayName": "Country",
+      "createdTime": "2021-03-18T12:11:35.821Z",
+      "updatedTime": "2021-03-18T12:11:35.821Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "a05ef574-5614-4990-9785-ffbaa858f135"
+        ]
+      },
+      "isGlobal": false,
+      "id": "f72e3383-b52e-4cdb-a133-b99935c7f31a",
+      "displayName": "PassNumber",
+      "createdTime": "2021-03-18T12:13:25.619Z",
+      "updatedTime": "2021-03-18T12:13:25.619Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "b31f3d24-f988-4f26-babb-476c344889fd"
+        ]
+      },
+      "isGlobal": false,
+      "id": "70cabb04-12c2-4748-a2eb-faf15fe9f403",
+      "displayName": "UiF",
+      "createdTime": "2021-03-18T12:15:20.162Z",
+      "updatedTime": "2021-03-18T12:15:20.162Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "DateTime",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "f8271d22-6ff5-4ccd-af6c-b2abfd32850e"
+        ]
+      },
+      "isGlobal": false,
+      "id": "c4cc4f95-c58d-4c63-9272-539bc4d001ac",
+      "displayName": "DateOfBirth",
+      "createdTime": "2021-03-18T12:17:33.362Z",
+      "updatedTime": "2021-03-18T12:17:33.362Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "84931e5e-00f4-4084-89ed-4031aa369759",
+        "978189ca-a74d-4570-88dd-74f1313b931e"
+      ],
+      "messages": {
+        "GetValue": [
+          "9b5a761f-9133-4170-9f0a-f22062b4591d"
+        ]
+      },
+      "isGlobal": false,
+      "id": "bf8d27d5-dd91-43cf-a6f4-c01512ed45ca",
+      "displayName": "ContactD",
+      "createdTime": "2021-03-18T12:18:51.351Z",
+      "updatedTime": "2021-03-18T12:18:51.351Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "a780252e-bfcb-440c-a3c1-59d1a94b5a15"
+        ]
+      },
+      "isGlobal": false,
+      "id": "6bfa77da-8715-4309-99d0-ec98d045587f",
+      "displayName": "phone",
+      "createdTime": "2021-03-18T12:24:12.816Z",
+      "updatedTime": "2021-03-18T12:24:12.816Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "customTypeId": "81b0c0c2-9f8d-4fac-b2da-823469aac7b1",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "ed23c4b0-428b-46ad-81d6-84c2600ff18c",
+      "isGlobal": false,
+      "id": "356acad7-4698-4794-82d8-c1c65cafb7f5",
+      "displayName": "",
+      "createdTime": "2021-03-18T20:31:30.662Z",
+      "updatedTime": "2021-03-18T20:31:30.662Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z",
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "81b0c0c2-9f8d-4fac-b2da-823469aac7b1",
+      "displayName": "Response Json Type for Flow - UIFregistration",
+      "createdTime": "2021-03-18T20:31:30.662Z",
+      "updatedTime": "2021-03-18T20:31:30.662Z"
+    }
+  ]
+}

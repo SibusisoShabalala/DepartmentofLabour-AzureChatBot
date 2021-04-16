@@ -1,0 +1,20 @@
+<botcomponent_workflowset>
+  <botcomponent_workflow botcomponentid.schemaname="new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d" workflowid.workflowid="26fca4a0-fd86-eb11-a812-6045bd72626f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="new_topic_031cdc38b0c548cd9c91103811689f1d" workflowid.workflowid="7acae8ec-1088-eb11-a812-6045bd72626f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d" workflowid.workflowid="445d4c6c-4887-eb11-a812-6045bd72626f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow workflowid.workflowid="7acae8ec-1088-eb11-a812-6045bd72626f" botcomponentid.schemaname="new_topic_07761e73540846cf96105c45829c3dd9">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d" workflowid.workflowid="0a96e910-b787-eb11-a812-6045bd72626f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="new_topic_c4081fdc506d405db64d124d1903974b" workflowid.workflowid="7acae8ec-1088-eb11-a812-6045bd72626f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+</botcomponent_workflowset>

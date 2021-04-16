@@ -1,0 +1,651 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Unemployment",
+        "benefit",
+        "apply for Unemployment benefit",
+        "Unemployment benefit"
+      ],
+      "dialogId": "new_topic_031cdc38b0c548cd9c91103811689f1d",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_031cdc38b0c548cd9c91103811689f1d",
+      "displayName": "Unemployment benefit",
+      "description": "",
+      "createdTime": "2021-03-18T20:41:05.697624Z",
+      "updatedTime": "2021-03-18T22:57:02.4272294Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "ef59047c-9c79-4f74-b75c-290e7b2add72",
+      "displayName": "Capitec"
+    },
+    {
+      "id": "673a7853-0b3f-412e-9ad0-6dd82d5ffaf3",
+      "displayName": "Cheque Account"
+    },
+    {
+      "id": "033c8a3c-8709-4f29-91d4-023c2d7f722b",
+      "displayName": "Saving Account"
+    },
+    {
+      "id": "8ad7295f-10a3-4dcd-a4ad-25e36a279376",
+      "displayName": "Transmission Account"
+    },
+    {
+      "id": "a0b81f08-4505-493b-bee8-29c42a01023f",
+      "displayName": "Yes"
+    },
+    {
+      "id": "d310942a-1ac6-4b17-a924-3f3885611065",
+      "displayName": "No"
+    },
+    {
+      "id": "786be332-9044-4c9e-92e7-a0630d0eb978",
+      "displayName": "I am a Job Seeker."
+    },
+    {
+      "id": "9c325ed1-283d-4cf4-8523-df99e5c593aa",
+      "displayName": "I am not a Job Seeker."
+    },
+    {
+      "id": "a40be442-2ab5-4fbd-aba1-3c5d353186a6",
+      "displayName": "Absa"
+    },
+    {
+      "id": "4690dc42-f324-48e3-994b-82b6d44a47be",
+      "displayName": "FNB"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "6fc8807e-74ea-40da-9ae6-677f100fff01",
+      "messageNodes": [
+        {
+          "botMessageId": "1a391228-ac64-4ac7-8180-84e656a03b69",
+          "nodeType": "BotMessageNode",
+          "id": "6fc8807e-74ea-40da-9ae6-677f100fff01",
+          "defaultTargetNodeId": "49bd2a6b-bab8-401f-9533-2717d04be579"
+        },
+        {
+          "botMessageId": "19c678ec-192f-4aca-975d-7447d99403a9",
+          "nodeType": "BotMessageNode",
+          "id": "49bd2a6b-bab8-401f-9533-2717d04be579",
+          "defaultTargetNodeId": "1a25c89a-2958-456a-a04b-3fc471e4f85c"
+        },
+        {
+          "botMessageId": "93cac992-ccd9-4c83-bfcd-140f0275b7ee",
+          "nodeType": "BotMessageNode",
+          "id": "8fbc169c-231e-49b9-923c-a0d6ec2505c2",
+          "defaultTargetNodeId": "2610990d-83e0-4809-b6d6-ff74cbe6ded5"
+        },
+        {
+          "botMessageId": "b97b87e6-7de4-479e-9953-00a0e0b9763e",
+          "nodeType": "BotMessageNode",
+          "id": "24bf7f00-3205-4e44-a74e-5416c747f066",
+          "defaultTargetNodeId": "df1fd7cc-93e0-4b6b-a9f0-809722573cf1"
+        },
+        {
+          "botMessageId": "b8245754-7ab0-455d-93fa-ccd8d4bcfda2",
+          "nodeType": "BotMessageNode",
+          "id": "79a2946b-0757-4f44-9238-1e51abc5c8c7",
+          "defaultTargetNodeId": "b888fe5e-edc2-41ed-b31e-ab1effda8c0a"
+        },
+        {
+          "botMessageId": "009025e1-f21c-460d-ab18-a62a5a21a0c0",
+          "nodeType": "BotMessageNode",
+          "id": "0473ca06-3295-4e4c-a022-e2b6c5023c59",
+          "defaultTargetNodeId": "42fc06e2-f09d-477e-945b-30bb2363eda2"
+        },
+        {
+          "botMessageId": "d955f954-74d7-428c-a4d7-c3d83b49d819",
+          "nodeType": "BotMessageNode",
+          "id": "25941255-8b0d-4c10-b8f3-2e476f8a3168",
+          "defaultTargetNodeId": "74d6fc18-0680-4dc8-8b25-bf0e75d75327"
+        }
+      ],
+      "actionNodes": [
+        {
+          "inputParameterVariableIdMap": {
+            "text": "{new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e}",
+            "text_1": "{new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a}"
+          },
+          "contextVariableId": "fa370fcd-6a79-4ca2-9172-2b2a6507a1f1",
+          "nodeType": "ActionNode",
+          "id": "00b8f68e-4a7a-453a-b0e8-5b7d0cc8ae23",
+          "defaultTargetNodeId": "79a2946b-0757-4f44-9238-1e51abc5c8c7"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_d72431f0cad643189e85045847b16422_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "b888fe5e-edc2-41ed-b31e-ab1effda8c0a"
+        },
+        {
+          "targetDialogId": "new_topic_d72431f0cad643189e85045847b16422_f56d1a3e522740c78f9fac0939332dbd_goodbye",
+          "nodeType": "DialogChangeNode",
+          "id": "42fc06e2-f09d-477e-945b-30bb2363eda2"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "0c4a96fb-58fa-4a37-9214-d7754725a6d5",
+          "nodeType": "QuestionNode",
+          "id": "1a25c89a-2958-456a-a04b-3fc471e4f85c",
+          "routes": [
+            {
+              "expression": "@equals(parameters('0c4a96fb-58fa-4a37-9214-d7754725a6d5'), 'ef59047c-9c79-4f74-b75c-290e7b2add72')",
+              "targetNodeId": "0f922911-2da6-46ad-b48c-1a61c04c454f"
+            },
+            {
+              "expression": "@equals(parameters('0c4a96fb-58fa-4a37-9214-d7754725a6d5'), 'a40be442-2ab5-4fbd-aba1-3c5d353186a6')",
+              "targetNodeId": "0f922911-2da6-46ad-b48c-1a61c04c454f"
+            },
+            {
+              "expression": "@equals(parameters('0c4a96fb-58fa-4a37-9214-d7754725a6d5'), '4690dc42-f324-48e3-994b-82b6d44a47be')",
+              "targetNodeId": "0f922911-2da6-46ad-b48c-1a61c04c454f"
+            }
+          ],
+          "defaultTargetNodeId": "1a25c89a-2958-456a-a04b-3fc471e4f85c"
+        },
+        {
+          "contextVariableId": "d0a406d7-18e7-41d8-9082-11e178db162c",
+          "nodeType": "QuestionNode",
+          "id": "0f922911-2da6-46ad-b48c-1a61c04c454f",
+          "defaultTargetNodeId": "28279e7a-fc78-4d53-bf83-fd85b8687b90"
+        },
+        {
+          "contextVariableId": "3ab749bf-fff5-480e-bb59-c9d8173e9ba6",
+          "nodeType": "QuestionNode",
+          "id": "28279e7a-fc78-4d53-bf83-fd85b8687b90",
+          "routes": [
+            {
+              "expression": "@equals(parameters('3ab749bf-fff5-480e-bb59-c9d8173e9ba6'), '673a7853-0b3f-412e-9ad0-6dd82d5ffaf3')",
+              "targetNodeId": "8fbc169c-231e-49b9-923c-a0d6ec2505c2"
+            },
+            {
+              "expression": "@equals(parameters('3ab749bf-fff5-480e-bb59-c9d8173e9ba6'), '033c8a3c-8709-4f29-91d4-023c2d7f722b')",
+              "targetNodeId": "8fbc169c-231e-49b9-923c-a0d6ec2505c2"
+            },
+            {
+              "expression": "@equals(parameters('3ab749bf-fff5-480e-bb59-c9d8173e9ba6'), '8ad7295f-10a3-4dcd-a4ad-25e36a279376')",
+              "targetNodeId": "8fbc169c-231e-49b9-923c-a0d6ec2505c2"
+            }
+          ],
+          "defaultTargetNodeId": "28279e7a-fc78-4d53-bf83-fd85b8687b90"
+        },
+        {
+          "contextVariableId": "86427482-0298-491c-bb8c-df2ffd8fae57",
+          "nodeType": "QuestionNode",
+          "id": "2610990d-83e0-4809-b6d6-ff74cbe6ded5",
+          "routes": [
+            {
+              "expression": "@equals(parameters('86427482-0298-491c-bb8c-df2ffd8fae57'), 'a0b81f08-4505-493b-bee8-29c42a01023f')",
+              "targetNodeId": "24bf7f00-3205-4e44-a74e-5416c747f066"
+            },
+            {
+              "expression": "@equals(parameters('86427482-0298-491c-bb8c-df2ffd8fae57'), 'd310942a-1ac6-4b17-a924-3f3885611065')",
+              "targetNodeId": "25941255-8b0d-4c10-b8f3-2e476f8a3168"
+            }
+          ],
+          "defaultTargetNodeId": "2610990d-83e0-4809-b6d6-ff74cbe6ded5"
+        },
+        {
+          "contextVariableId": "cf1ddc2f-3439-4ca1-81bd-c419287d4f30",
+          "nodeType": "QuestionNode",
+          "id": "df1fd7cc-93e0-4b6b-a9f0-809722573cf1",
+          "defaultTargetNodeId": "928effd2-96cc-45f4-90fe-57bb762319aa"
+        },
+        {
+          "contextVariableId": "9b9a08d8-7e87-4a96-955f-f7be7faf84fb",
+          "nodeType": "QuestionNode",
+          "id": "928effd2-96cc-45f4-90fe-57bb762319aa",
+          "defaultTargetNodeId": "40565400-2af2-47bc-805f-69368916b534"
+        },
+        {
+          "contextVariableId": "df58a4c9-ac56-4058-a708-629258dccd79",
+          "nodeType": "QuestionNode",
+          "id": "40565400-2af2-47bc-805f-69368916b534",
+          "routes": [
+            {
+              "expression": "@equals(parameters('df58a4c9-ac56-4058-a708-629258dccd79'), '786be332-9044-4c9e-92e7-a0630d0eb978')",
+              "targetNodeId": "00b8f68e-4a7a-453a-b0e8-5b7d0cc8ae23"
+            },
+            {
+              "expression": "@equals(parameters('df58a4c9-ac56-4058-a708-629258dccd79'), '9c325ed1-283d-4cf4-8523-df99e5c593aa')",
+              "targetNodeId": "0473ca06-3295-4e4c-a022-e2b6c5023c59"
+            }
+          ],
+          "defaultTargetNodeId": "40565400-2af2-47bc-805f-69368916b534"
+        }
+      ],
+      "agentTransferNodes": [
+        {
+          "messageToAgent": "incorrect information",
+          "nodeType": "AgentTransferNode",
+          "id": "74d6fc18-0680-4dc8-8b25-bf0e75d75327"
+        }
+      ],
+      "id": "new_topic_031cdc38b0c548cd9c91103811689f1d",
+      "displayName": "Dialog for Unemployment benefit",
+      "createdTime": "2021-03-18T20:41:05.697624Z",
+      "updatedTime": "2021-03-18T22:59:36.9817717Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "I can help you with that {new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}"
+        }
+      },
+      "id": "1a391228-ac64-4ac7-8180-84e656a03b69",
+      "createdTime": "2021-03-18T20:41:05.697624Z",
+      "updatedTime": "2021-03-18T20:41:05.697624Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**This application type contains 4 steps:**\n\n1.  Complete your Banking Details\n2.  Verify / complete your Personal Details and update any changes\n3.  Enter your Occupation and Qualification\n4.  Confirm that you are a Work Seeker"
+        }
+      },
+      "id": "19c678ec-192f-4aca-975d-7447d99403a9",
+      "createdTime": "2021-03-18T20:41:38.561Z",
+      "updatedTime": "2021-03-18T20:41:38.561Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}, Please select your bank."
+        }
+      },
+      "id": "dbd75591-f089-438c-b8c9-6cff15d80727",
+      "createdTime": "2021-03-18T20:43:36.019Z",
+      "updatedTime": "2021-03-18T20:43:36.019Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your bank account"
+        }
+      },
+      "id": "3ae1d23e-0cf8-4db5-a422-51bbc3416489",
+      "createdTime": "2021-03-18T20:56:48.985Z",
+      "updatedTime": "2021-03-18T20:56:48.985Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please elect your bank account type"
+        }
+      },
+      "id": "9b59ddb9-1288-4572-827b-0dcde785afbf",
+      "createdTime": "2021-03-18T20:59:14.051Z",
+      "updatedTime": "2021-03-18T20:59:14.051Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please confirm your banking details below.\n\nFull Name: {new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}\n\nBank Name: {0c4a96fb-58fa-4a37-9214-d7754725a6d5}\n\nBank type: {3ab749bf-fff5-480e-bb59-c9d8173e9ba6}\n\nBank Account : {d0a406d7-18e7-41d8-9082-11e178db162c}"
+        }
+      },
+      "id": "93cac992-ccd9-4c83-bfcd-140f0275b7ee",
+      "createdTime": "2021-03-18T21:06:48.954Z",
+      "updatedTime": "2021-03-18T21:06:48.954Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Congratulation,  have just completed your first step, we have noticed that we already have your personal information.\n\nWe are now moving to step 3 and 4."
+        }
+      },
+      "id": "b97b87e6-7de4-479e-9953-00a0e0b9763e",
+      "createdTime": "2021-03-18T21:12:48.974Z",
+      "updatedTime": "2021-03-18T21:12:48.974Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Congratulation Sibusiso, your application has been received.\n\nour agent will contact you on {new\\_variable\\_d72431f0cad643189e85045847b16422\\_e3d1ba39e42841729b6e3ebcd5b8e7ec}."
+        }
+      },
+      "id": "b8245754-7ab0-455d-93fa-ccd8d4bcfda2",
+      "createdTime": "2021-03-18T21:19:37.332Z",
+      "updatedTime": "2021-03-18T21:19:37.332Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Are these banking details correct?"
+        }
+      },
+      "id": "a5decbdf-bf9b-4102-8fbb-b4654a86b6f0",
+      "createdTime": "2021-03-18T21:11:21.495Z",
+      "updatedTime": "2021-03-18T21:11:21.495Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What is your occupation?"
+        }
+      },
+      "id": "d1994e38-b317-44fa-8e35-44ba02d077f4",
+      "createdTime": "2021-03-18T21:15:30.789Z",
+      "updatedTime": "2021-03-18T21:15:30.789Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What is your qualification?"
+        }
+      },
+      "id": "0c810a0d-117d-40cd-b335-1def2a43b4d2",
+      "createdTime": "2021-03-18T21:16:06.567Z",
+      "updatedTime": "2021-03-18T21:16:06.567Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please confirm that ou are a job seeker."
+        }
+      },
+      "id": "89344fed-95d3-4c75-9800-aaee77671f94",
+      "createdTime": "2021-03-18T21:16:34.328Z",
+      "updatedTime": "2021-03-18T21:16:34.328Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Unfortunately {new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}, you don't qualify for unemployment Benefit."
+        }
+      },
+      "id": "009025e1-f21c-460d-ab18-a62a5a21a0c0",
+      "createdTime": "2021-03-18T21:25:39.534Z",
+      "updatedTime": "2021-03-18T21:25:39.534Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please start again your application by typing apply for Unemployment benefit"
+        }
+      },
+      "id": "d955f954-74d7-428c-a4d7-c3d83b49d819",
+      "createdTime": "2021-03-18T21:29:53.089Z",
+      "updatedTime": "2021-03-18T21:29:53.089Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e}\",\"text_1\":\"{new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "7acae8ec-1088-eb11-a812-6045bd72626f",
+        "title": "UIFregistration",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "FullName",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Title",
+            "id": "text_1",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-03-18T17:39:54Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-03-18T20:26:43Z"
+      },
+      "id": "14de184e-7cbc-48fc-a445-1d23b0ee9d39",
+      "displayName": "UIFregistration",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-03-18T21:25:11.588Z",
+      "updatedTime": "2021-03-18T21:25:11.588Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "ef59047c-9c79-4f74-b75c-290e7b2add72",
+        "a40be442-2ab5-4fbd-aba1-3c5d353186a6",
+        "4690dc42-f324-48e3-994b-82b6d44a47be"
+      ],
+      "messages": {
+        "GetValue": [
+          "dbd75591-f089-438c-b8c9-6cff15d80727"
+        ]
+      },
+      "isGlobal": false,
+      "id": "0c4a96fb-58fa-4a37-9214-d7754725a6d5",
+      "displayName": "bank",
+      "createdTime": "2021-03-18T20:43:36.019Z",
+      "updatedTime": "2021-03-18T20:43:36.019Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "3ae1d23e-0cf8-4db5-a422-51bbc3416489"
+        ]
+      },
+      "isGlobal": false,
+      "id": "d0a406d7-18e7-41d8-9082-11e178db162c",
+      "displayName": "bankacc",
+      "createdTime": "2021-03-18T20:56:48.985Z",
+      "updatedTime": "2021-03-18T20:56:48.985Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "673a7853-0b3f-412e-9ad0-6dd82d5ffaf3",
+        "033c8a3c-8709-4f29-91d4-023c2d7f722b",
+        "8ad7295f-10a3-4dcd-a4ad-25e36a279376"
+      ],
+      "messages": {
+        "GetValue": [
+          "9b59ddb9-1288-4572-827b-0dcde785afbf"
+        ]
+      },
+      "isGlobal": false,
+      "id": "3ab749bf-fff5-480e-bb59-c9d8173e9ba6",
+      "displayName": "BankType",
+      "createdTime": "2021-03-18T20:59:14.052Z",
+      "updatedTime": "2021-03-18T20:59:14.052Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "a0b81f08-4505-493b-bee8-29c42a01023f",
+        "d310942a-1ac6-4b17-a924-3f3885611065"
+      ],
+      "messages": {
+        "GetValue": [
+          "a5decbdf-bf9b-4102-8fbb-b4654a86b6f0"
+        ]
+      },
+      "isGlobal": false,
+      "id": "86427482-0298-491c-bb8c-df2ffd8fae57",
+      "displayName": "Var",
+      "createdTime": "2021-03-18T21:11:21.495Z",
+      "updatedTime": "2021-03-18T21:11:21.495Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "None",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "d1994e38-b317-44fa-8e35-44ba02d077f4"
+        ]
+      },
+      "isGlobal": false,
+      "id": "cf1ddc2f-3439-4ca1-81bd-c419287d4f30",
+      "displayName": "Var1",
+      "createdTime": "2021-03-18T21:15:30.789Z",
+      "updatedTime": "2021-03-18T21:15:30.789Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "None",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "0c810a0d-117d-40cd-b335-1def2a43b4d2"
+        ]
+      },
+      "isGlobal": false,
+      "id": "9b9a08d8-7e87-4a96-955f-f7be7faf84fb",
+      "displayName": "Var2",
+      "createdTime": "2021-03-18T21:16:06.567Z",
+      "updatedTime": "2021-03-18T21:16:06.567Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "786be332-9044-4c9e-92e7-a0630d0eb978",
+        "9c325ed1-283d-4cf4-8523-df99e5c593aa"
+      ],
+      "messages": {
+        "GetValue": [
+          "89344fed-95d3-4c75-9800-aaee77671f94"
+        ]
+      },
+      "isGlobal": false,
+      "id": "df58a4c9-ac56-4058-a708-629258dccd79",
+      "displayName": "Var3",
+      "createdTime": "2021-03-18T21:16:34.328Z",
+      "updatedTime": "2021-03-18T21:16:34.328Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "customTypeId": "95d22174-37b2-490e-b624-21ea89546ac7",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "14de184e-7cbc-48fc-a445-1d23b0ee9d39",
+      "isGlobal": false,
+      "id": "fa370fcd-6a79-4ca2-9172-2b2a6507a1f1",
+      "displayName": "",
+      "createdTime": "2021-03-18T21:25:11.59Z",
+      "updatedTime": "2021-03-18T21:25:11.59Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z",
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "95d22174-37b2-490e-b624-21ea89546ac7",
+      "displayName": "Response Json Type for Flow - UIFregistration",
+      "createdTime": "2021-03-18T21:25:11.59Z",
+      "updatedTime": "2021-03-18T21:25:11.59Z"
+    }
+  ]
+}

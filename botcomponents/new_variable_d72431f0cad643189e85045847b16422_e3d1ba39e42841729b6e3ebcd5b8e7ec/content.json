@@ -1,0 +1,25 @@
+{
+  "contextVariables": [
+    {
+      "systemType": "Email",
+      "initializerType": "UserQuestion",
+      "scope": "Session",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "71b57af7-d22a-4a75-98a0-12c7454f5549"
+        ]
+      },
+      "isGlobal": true,
+      "id": "new_variable_d72431f0cad643189e85045847b16422_e3d1ba39e42841729b6e3ebcd5b8e7ec",
+      "displayName": "email",
+      "createdTime": "2021-03-18T12:22:57.378Z",
+      "updatedTime": "2021-03-18T12:22:57.378Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}

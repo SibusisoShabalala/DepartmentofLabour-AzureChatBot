@@ -1,0 +1,1066 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "get jobs",
+        "Jobs",
+        "list of available jobs",
+        "list of jobs",
+        "Aply for jobs",
+        "Job"
+      ],
+      "dialogId": "new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d",
+      "displayName": "Online Jobs",
+      "description": "Help a user to apply for jobs",
+      "createdTime": "2021-03-17T06:08:01.717817Z",
+      "updatedTime": "2021-03-18T08:08:00.8634587Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "fbd3975b-9239-4ae3-bec2-6c36123f01a1",
+      "displayName": "Information Technology"
+    },
+    {
+      "id": "546c4738-e528-4fa8-857f-fdc175a3e847",
+      "displayName": "Administration"
+    },
+    {
+      "id": "0586db0c-8a7c-4b24-b39d-0b2529a70928",
+      "displayName": "Human Resources"
+    },
+    {
+      "id": "bafb2e0d-f1c5-4941-a2b9-2bc2b592c7cb",
+      "displayName": "Up to 2 years"
+    },
+    {
+      "id": "ff9d3df5-76e4-4cfe-9ac5-10e812462f30",
+      "displayName": "3 years"
+    },
+    {
+      "id": "1eae936d-0dbb-44dc-97a6-d31ad95df9ee",
+      "displayName": "More than 4 years."
+    },
+    {
+      "id": "66b0f03b-f65a-4b43-84ab-c735842cb780",
+      "displayName": "Yes"
+    },
+    {
+      "id": "43de709f-4138-4caf-87af-98e33e720195",
+      "displayName": "No"
+    },
+    {
+      "id": "97e4f9c4-daad-444f-8fae-553dca29d101",
+      "displayName": "Up to 2 years"
+    },
+    {
+      "id": "87bfbeb3-2b36-49a1-ba1e-434ca93c8a3c",
+      "displayName": "3 years"
+    },
+    {
+      "id": "90e77c1a-23c5-407d-85b1-d47c91044d17",
+      "displayName": "More than 4 years."
+    },
+    {
+      "id": "3f05841e-e626-44db-be77-74f72e58e69d",
+      "displayName": "Yes"
+    },
+    {
+      "id": "1ba9453f-53ca-4d2d-8d73-66dc601bc0af",
+      "displayName": "No"
+    },
+    {
+      "id": "da1666e7-7543-40b4-aa43-6b40f3be6dd4",
+      "displayName": "Mulesoft Developer"
+    },
+    {
+      "id": "53ed8fed-c45d-40c9-a855-71325e329e38",
+      "displayName": "Java Developer"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "d5528f8e-26d1-4343-84ae-46e10d7ceae4",
+      "messageNodes": [
+        {
+          "botMessageId": "8539454c-c44b-45bd-a097-180a8ba714b4",
+          "nodeType": "BotMessageNode",
+          "id": "d5528f8e-26d1-4343-84ae-46e10d7ceae4",
+          "defaultTargetNodeId": "faf52f62-16b4-4ea3-bc35-d616e26bd903"
+        },
+        {
+          "botMessageId": "920e3e68-5eb7-4810-a3ad-3e21481c3a1f",
+          "nodeType": "BotMessageNode",
+          "id": "faf52f62-16b4-4ea3-bc35-d616e26bd903",
+          "defaultTargetNodeId": "88cf357e-678d-407c-ad38-57cae7f48b18"
+        },
+        {
+          "botMessageId": "a0e9904d-2f06-4605-a0b1-b8d82da568c9",
+          "nodeType": "BotMessageNode",
+          "id": "fe3c8bc6-15b7-4a58-b4ba-198d045ef85d",
+          "defaultTargetNodeId": "ba446c43-71de-49cd-b8f4-1f2cdec9f267"
+        },
+        {
+          "botMessageId": "9aed9a77-cb44-4925-ad27-f2db55ce92b7",
+          "nodeType": "BotMessageNode",
+          "id": "ba446c43-71de-49cd-b8f4-1f2cdec9f267",
+          "defaultTargetNodeId": "210466f8-e08c-4a51-a860-06686a54d507"
+        },
+        {
+          "botMessageId": "9fa0478b-4ce8-49ae-9d84-28fcf14661a1",
+          "nodeType": "BotMessageNode",
+          "id": "76dee57f-ecc5-4c4d-803e-a824333c9524",
+          "defaultTargetNodeId": "56c4df67-8d28-40d3-87ec-9f91c4d23e8f"
+        },
+        {
+          "botMessageId": "81208592-a793-4ca2-a57b-78295c0baefb",
+          "nodeType": "BotMessageNode",
+          "id": "56c4df67-8d28-40d3-87ec-9f91c4d23e8f",
+          "defaultTargetNodeId": "c0b38090-3868-41ef-b975-15734492cbad"
+        },
+        {
+          "botMessageId": "10dcb22a-c93b-4edf-8b88-2f63d55797fa",
+          "nodeType": "BotMessageNode",
+          "id": "3092f6ad-380f-4fa4-94e3-e5640b435a41",
+          "defaultTargetNodeId": "b61012b5-f139-4ee4-993e-1c7aa9c52a80"
+        },
+        {
+          "botMessageId": "cc55c261-1cb5-4786-b5dc-afaac0520fdb",
+          "nodeType": "BotMessageNode",
+          "id": "13347d87-c658-41e1-8aa2-7f1637ba92b2",
+          "defaultTargetNodeId": "712be728-865f-4826-ad02-19645bc896a4"
+        },
+        {
+          "botMessageId": "545307dd-14da-4682-a9fe-c7231d6f5276",
+          "nodeType": "BotMessageNode",
+          "id": "712be728-865f-4826-ad02-19645bc896a4",
+          "defaultTargetNodeId": "fe3c8bc6-15b7-4a58-b4ba-198d045ef85d"
+        }
+      ],
+      "actionNodes": [
+        {
+          "inputParameterVariableIdMap": {
+            "Jobname": "{14ed46e3-9eb9-4278-9089-5c4461bb3fbf}"
+          },
+          "outputExpressionVariableIds": [
+            "1f019d0d-ee06-45e9-8770-9f5d02663bcb"
+          ],
+          "contextVariableId": "b0b3061e-260a-4ffd-83d7-df617ba22f0b",
+          "nodeType": "ActionNode",
+          "id": "3b29e491-66e4-4796-a10f-a78642c86da3",
+          "defaultTargetNodeId": "956142e7-7870-41ad-93d5-b3cd50275575"
+        },
+        {
+          "inputParameterVariableIdMap": {
+            "text": "{14ed46e3-9eb9-4278-9089-5c4461bb3fbf}"
+          },
+          "outputExpressionVariableIds": [
+            "8accc36f-9a5d-43b2-8186-40b55ca50e2e"
+          ],
+          "contextVariableId": "01380a48-8302-4a45-92ef-ca44077c73aa",
+          "nodeType": "ActionNode",
+          "id": "00ec0608-6f57-4c08-b73c-9e0e5b597a00",
+          "defaultTargetNodeId": "81f06d1e-dc67-430a-b665-a190b9f09422"
+        },
+        {
+          "inputParameterVariableIdMap": {
+            "text": "{new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e}",
+            "text_1": "{9058a322-ac15-43c2-9340-9d44f14d8769}",
+            "text_2": "{3590b91a-d5d6-4024-bdee-c8814d4c41c6}",
+            "text_4": "{8105b8c5-eb72-4a2e-8484-c18b381fd955}",
+            "text_3": "{fd3c7d93-e07e-4714-8597-0c825d5c91b8}",
+            "number": "{cbb8bd5a-d62f-4b98-8e18-a4446f46dab5}"
+          },
+          "contextVariableId": "5793a826-cb2f-4826-a3b2-7628587a3e8a",
+          "nodeType": "ActionNode",
+          "id": "189db17f-305e-4796-bdad-55d6304e2495",
+          "defaultTargetNodeId": "3092f6ad-380f-4fa4-94e3-e5640b435a41"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_d72431f0cad643189e85045847b16422_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "a648db88-19f2-4619-85d4-0a0b9ab7305c"
+        },
+        {
+          "targetDialogId": "new_topic_d72431f0cad643189e85045847b16422_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "b61012b5-f139-4ee4-993e-1c7aa9c52a80"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "14ed46e3-9eb9-4278-9089-5c4461bb3fbf",
+          "nodeType": "QuestionNode",
+          "id": "88cf357e-678d-407c-ad38-57cae7f48b18",
+          "routes": [
+            {
+              "expression": "@equals(parameters('14ed46e3-9eb9-4278-9089-5c4461bb3fbf'), 'fbd3975b-9239-4ae3-bec2-6c36123f01a1')",
+              "targetNodeId": "3b29e491-66e4-4796-a10f-a78642c86da3"
+            },
+            {
+              "expression": "@equals(parameters('14ed46e3-9eb9-4278-9089-5c4461bb3fbf'), '546c4738-e528-4fa8-857f-fdc175a3e847')",
+              "targetNodeId": "00ec0608-6f57-4c08-b73c-9e0e5b597a00"
+            },
+            {
+              "expression": "@equals(parameters('14ed46e3-9eb9-4278-9089-5c4461bb3fbf'), '0586db0c-8a7c-4b24-b39d-0b2529a70928')",
+              "targetNodeId": "00ec0608-6f57-4c08-b73c-9e0e5b597a00"
+            }
+          ],
+          "defaultTargetNodeId": "88cf357e-678d-407c-ad38-57cae7f48b18"
+        },
+        {
+          "contextVariableId": "3590b91a-d5d6-4024-bdee-c8814d4c41c6",
+          "nodeType": "QuestionNode",
+          "id": "956142e7-7870-41ad-93d5-b3cd50275575",
+          "routes": [
+            {
+              "expression": "@equals(parameters('3590b91a-d5d6-4024-bdee-c8814d4c41c6'), 'bafb2e0d-f1c5-4941-a2b9-2bc2b592c7cb')",
+              "targetNodeId": "fe3c8bc6-15b7-4a58-b4ba-198d045ef85d"
+            },
+            {
+              "expression": "@equals(parameters('3590b91a-d5d6-4024-bdee-c8814d4c41c6'), 'ff9d3df5-76e4-4cfe-9ac5-10e812462f30')",
+              "targetNodeId": "76dee57f-ecc5-4c4d-803e-a824333c9524"
+            },
+            {
+              "expression": "@equals(parameters('3590b91a-d5d6-4024-bdee-c8814d4c41c6'), '1eae936d-0dbb-44dc-97a6-d31ad95df9ee')",
+              "targetNodeId": "13347d87-c658-41e1-8aa2-7f1637ba92b2"
+            }
+          ],
+          "defaultTargetNodeId": "956142e7-7870-41ad-93d5-b3cd50275575"
+        },
+        {
+          "contextVariableId": "76851222-d76a-4268-9f6d-72e5f431532c",
+          "nodeType": "QuestionNode",
+          "id": "210466f8-e08c-4a51-a860-06686a54d507",
+          "routes": [
+            {
+              "expression": "@equals(parameters('76851222-d76a-4268-9f6d-72e5f431532c'), '66b0f03b-f65a-4b43-84ab-c735842cb780')",
+              "targetNodeId": "92663586-c063-448c-ae68-dfe044868926"
+            },
+            {
+              "expression": "@equals(parameters('76851222-d76a-4268-9f6d-72e5f431532c'), '43de709f-4138-4caf-87af-98e33e720195')",
+              "targetNodeId": "a648db88-19f2-4619-85d4-0a0b9ab7305c"
+            }
+          ],
+          "defaultTargetNodeId": "210466f8-e08c-4a51-a860-06686a54d507"
+        },
+        {
+          "contextVariableId": "cbb8bd5a-d62f-4b98-8e18-a4446f46dab5",
+          "nodeType": "QuestionNode",
+          "id": "04c6b8b0-80ce-4128-81fa-823b31c7020a",
+          "defaultTargetNodeId": "df13a7d9-3321-417d-8a4e-339d9914ad71"
+        },
+        {
+          "contextVariableId": "8105b8c5-eb72-4a2e-8484-c18b381fd955",
+          "nodeType": "QuestionNode",
+          "id": "df13a7d9-3321-417d-8a4e-339d9914ad71",
+          "defaultTargetNodeId": "eed7395c-bb6d-49c8-a926-ad26d31d5051"
+        },
+        {
+          "contextVariableId": "10ffd5db-936f-4703-bb43-44b5ce25e6ea",
+          "nodeType": "QuestionNode",
+          "id": "eed7395c-bb6d-49c8-a926-ad26d31d5051",
+          "defaultTargetNodeId": "73a5f03b-3b42-4e48-87c4-0dd66c247c5f"
+        },
+        {
+          "contextVariableId": "420cd02f-c31b-45f2-8568-86e28912f7d2",
+          "nodeType": "QuestionNode",
+          "id": "81f06d1e-dc67-430a-b665-a190b9f09422",
+          "routes": [
+            {
+              "expression": "@equals(parameters('420cd02f-c31b-45f2-8568-86e28912f7d2'), '97e4f9c4-daad-444f-8fae-553dca29d101')",
+              "targetNodeId": "13347d87-c658-41e1-8aa2-7f1637ba92b2"
+            },
+            {
+              "expression": "@equals(parameters('420cd02f-c31b-45f2-8568-86e28912f7d2'), '87bfbeb3-2b36-49a1-ba1e-434ca93c8a3c')",
+              "targetNodeId": "13347d87-c658-41e1-8aa2-7f1637ba92b2"
+            },
+            {
+              "expression": "@equals(parameters('420cd02f-c31b-45f2-8568-86e28912f7d2'), '90e77c1a-23c5-407d-85b1-d47c91044d17')",
+              "targetNodeId": "13347d87-c658-41e1-8aa2-7f1637ba92b2"
+            }
+          ],
+          "defaultTargetNodeId": "81f06d1e-dc67-430a-b665-a190b9f09422"
+        },
+        {
+          "contextVariableId": "c63aa553-4692-4ec4-a8eb-1f79f9283266",
+          "nodeType": "QuestionNode",
+          "id": "c0b38090-3868-41ef-b975-15734492cbad",
+          "routes": [
+            {
+              "expression": "@equals(parameters('c63aa553-4692-4ec4-a8eb-1f79f9283266'), '3f05841e-e626-44db-be77-74f72e58e69d')",
+              "targetNodeId": "04c6b8b0-80ce-4128-81fa-823b31c7020a"
+            },
+            {
+              "expression": "@equals(parameters('c63aa553-4692-4ec4-a8eb-1f79f9283266'), '1ba9453f-53ca-4d2d-8d73-66dc601bc0af')",
+              "targetNodeId": "a648db88-19f2-4619-85d4-0a0b9ab7305c"
+            }
+          ],
+          "defaultTargetNodeId": "c0b38090-3868-41ef-b975-15734492cbad"
+        },
+        {
+          "contextVariableId": "9058a322-ac15-43c2-9340-9d44f14d8769",
+          "nodeType": "QuestionNode",
+          "id": "92663586-c063-448c-ae68-dfe044868926",
+          "routes": [
+            {
+              "expression": "@equals(parameters('9058a322-ac15-43c2-9340-9d44f14d8769'), 'da1666e7-7543-40b4-aa43-6b40f3be6dd4')",
+              "targetNodeId": "04c6b8b0-80ce-4128-81fa-823b31c7020a"
+            },
+            {
+              "expression": "@equals(parameters('9058a322-ac15-43c2-9340-9d44f14d8769'), '53ed8fed-c45d-40c9-a855-71325e329e38')",
+              "targetNodeId": "04c6b8b0-80ce-4128-81fa-823b31c7020a"
+            }
+          ],
+          "defaultTargetNodeId": "92663586-c063-448c-ae68-dfe044868926"
+        },
+        {
+          "contextVariableId": "fd3c7d93-e07e-4714-8597-0c825d5c91b8",
+          "nodeType": "QuestionNode",
+          "id": "73a5f03b-3b42-4e48-87c4-0dd66c247c5f",
+          "defaultTargetNodeId": "189db17f-305e-4796-bdad-55d6304e2495"
+        }
+      ],
+      "id": "new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d",
+      "displayName": "Dialog for Online Jobs",
+      "createdTime": "2021-03-17T06:08:01.717817Z",
+      "updatedTime": "2021-03-18T23:22:09.0401791Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "I can help you with that."
+        }
+      },
+      "id": "8539454c-c44b-45bd-a097-180a8ba714b4",
+      "createdTime": "2021-03-17T06:08:01.717817Z",
+      "updatedTime": "2021-03-17T06:08:01.717817Z",
+      "createdUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "on this site we advertise the list of jobs opening available within the labor department in South Africa."
+        }
+      },
+      "id": "920e3e68-5eb7-4810-a3ad-3e21481c3a1f",
+      "createdTime": "2021-03-17T06:14:15.814Z",
+      "updatedTime": "2021-03-17T06:14:15.814Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please select your the field you wish to apply job for."
+        }
+      },
+      "id": "078300f8-3dd6-45f7-a18a-c208819ea03f",
+      "createdTime": "2021-03-17T06:11:10.278Z",
+      "updatedTime": "2021-03-17T06:11:10.278Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "These are the job openings available within our organization for your search results.\n\n*   **Java Developer**\n\nClosing Date : 28/04/2021\n\nSeniority : Entry level\n\nSkills : J2EE, SQL , Mulesoft\n\nYears of Experience :1\n\nRef : JKKF345\n\n*   **Mulesoft Developer**\n\nClosing Date : 28/04/2021\n\nSeniority : Entry level\n\nSkills : API, CSV, JSON\n\nyears of Expirience : 1\n\nRef : JKKF365"
+        }
+      },
+      "id": "a0e9904d-2f06-4605-a0b1-b8d82da568c9",
+      "createdTime": "2021-03-18T05:16:06.959Z",
+      "updatedTime": "2021-03-18T05:16:06.959Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "If you wish to get more information regarding these Job openings, please click on the following link.\n\n[https://www.gov.za/about-government/government-vacancies?gclid=Cj0KCQjw0caCBhCIARIsAGAfuMxLBn99Hydu-yQSQra4Mj9P3vkZQU5xoEghintLCW5wvF0iX9d0FzkaAsGbEALw\\_wcB#](https://www.gov.za/about-government/government-vacancies?gclid=Cj0KCQjw0caCBhCIARIsAGAfuMxLBn99Hydu-yQSQra4Mj9P3vkZQU5xoEghintLCW5wvF0iX9d0FzkaAsGbEALw_wcB#)"
+        }
+      },
+      "id": "9aed9a77-cb44-4925-ad27-f2db55ce92b7",
+      "createdTime": "2021-03-18T05:31:11.338Z",
+      "updatedTime": "2021-03-18T05:31:11.338Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "what is your year of work experience?"
+        }
+      },
+      "id": "3003dbb2-70de-4798-a10b-a5d42b4d6bf0",
+      "createdTime": "2021-03-18T05:12:19.189Z",
+      "updatedTime": "2021-03-18T05:12:19.189Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Would you like to apply for these jobs?"
+        }
+      },
+      "id": "8076d16e-b70a-4916-b592-97324eaa2595",
+      "createdTime": "2021-03-18T05:36:56.932Z",
+      "updatedTime": "2021-03-18T05:36:56.932Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}, Please enter your RSA ID number."
+        }
+      },
+      "id": "ac1e15c5-cb47-4b3d-a829-4e8e944c2b03",
+      "createdTime": "2021-03-18T05:39:35.064Z",
+      "updatedTime": "2021-03-18T05:39:35.064Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please enter your email adress"
+        }
+      },
+      "id": "984c7c3f-3712-402e-a6c9-bb680201f30f",
+      "createdTime": "2021-03-18T05:41:00.212Z",
+      "updatedTime": "2021-03-18T05:41:00.212Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please provide your cell number."
+        }
+      },
+      "id": "3275b3e6-085a-4dfd-8183-7ae74e9ef7e1",
+      "createdTime": "2021-03-18T07:08:39.882Z",
+      "updatedTime": "2021-03-18T07:08:39.882Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "These are the job openings available within our organization for your search results.\n\n*   **SQL Developer**\n\nClosing Date : 28/04/2021\n\nSeniority : Entry level\n\nSkills : J2EE, SQL , Mulesoft\n\nYears of Experience :1\n\nRef : JKKF345"
+        }
+      },
+      "id": "9fa0478b-4ce8-49ae-9d84-28fcf14661a1",
+      "createdTime": "2021-03-18T07:30:39.645Z",
+      "updatedTime": "2021-03-18T07:30:39.645Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "what is your year of work experience?"
+        }
+      },
+      "id": "6f1a3ffa-17cd-4c51-b84e-f1ffe9559ea0",
+      "createdTime": "2021-03-18T07:26:17.43Z",
+      "updatedTime": "2021-03-18T07:26:17.43Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "If you wish to get more information regarding these Job openings, please click on the following link.\n\n[https://www.gov.za/about-government/government-vacancies?gclid=Cj0KCQjw0caCBhCIARIsAGAfuMxLBn99Hydu-yQSQra4Mj9P3vkZQU5xoEghintLCW5wvF0iX9d0FzkaAsGbEALw\\_wcB#](https://www.gov.za/about-government/government-vacancies?gclid=Cj0KCQjw0caCBhCIARIsAGAfuMxLBn99Hydu-yQSQra4Mj9P3vkZQU5xoEghintLCW5wvF0iX9d0FzkaAsGbEALw_wcB#)"
+        }
+      },
+      "id": "81208592-a793-4ca2-a57b-78295c0baefb",
+      "createdTime": "2021-03-18T07:36:45.488Z",
+      "updatedTime": "2021-03-18T07:36:45.488Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Congratulation {new\\_variable\\_d72431f0cad643189e85045847b16422\\_f067698f5b3c48039bfde7ebaa1e6a3e}\n\n, your job application for {9058a322-ac15-43c2-9340-9d44f14d8769} has been received.\n\nOur consulted will contact you on {8105b8c5-eb72-4a2e-8484-c18b381fd955}, alternatively {10ffd5db-936f-4703-bb43-44b5ce25e6ea}"
+        }
+      },
+      "id": "10dcb22a-c93b-4edf-8b88-2f63d55797fa",
+      "createdTime": "2021-03-18T07:53:25.032Z",
+      "updatedTime": "2021-03-18T07:53:25.032Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Sorry the are no job oppening for this for your job search."
+        }
+      },
+      "id": "cc55c261-1cb5-4786-b5dc-afaac0520fdb",
+      "createdTime": "2021-03-18T07:57:29.768Z",
+      "updatedTime": "2021-03-18T07:57:29.768Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Would you like to apply for these jobs?"
+        }
+      },
+      "id": "4f284926-9d2b-4bfb-aa29-c80191db257e",
+      "createdTime": "2021-03-18T07:37:03.382Z",
+      "updatedTime": "2021-03-18T07:37:03.382Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Which job do you wish to apply for?"
+        }
+      },
+      "id": "06f28bc4-42a3-4f72-98e9-2aa5f388e2f4",
+      "createdTime": "2021-03-18T07:41:25.174Z",
+      "updatedTime": "2021-03-18T07:41:25.174Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Please provide yourr skills"
+        }
+      },
+      "id": "7f6c2c59-c550-4596-8030-4606788d7f73",
+      "createdTime": "2021-03-18T07:50:28.463Z",
+      "updatedTime": "2021-03-18T07:50:28.463Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "However, here are the list of other jobs we have"
+        }
+      },
+      "id": "545307dd-14da-4682-a9fe-c7231d6f5276",
+      "createdTime": "2021-03-18T08:05:20.465Z",
+      "updatedTime": "2021-03-18T08:05:20.465Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"Jobname\":\"{14ed46e3-9eb9-4278-9089-5c4461bb3fbf}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "445d4c6c-4887-eb11-a812-6045bd72626f",
+        "title": "JavaDev",
+        "description": "",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "Jobname",
+            "id": "Jobname",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "Jobname",
+            "id": "Jobname",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-03-17T17:44:32Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-03-17T17:44:40Z"
+      },
+      "id": "04370cb5-dc45-46af-93e8-ed7f5c16a14f",
+      "displayName": "JavaDev",
+      "description": "",
+      "createdTime": "2021-03-17T17:45:16.469Z",
+      "updatedTime": "2021-03-17T17:45:16.469Z"
+    },
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{14ed46e3-9eb9-4278-9089-5c4461bb3fbf}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "26fca4a0-fd86-eb11-a812-6045bd72626f",
+        "title": "Power Virtual Agents Flow Template",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "Agriculture",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "jobs name",
+            "id": "jobs_name",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-03-17T08:49:15Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-03-17T08:49:24Z"
+      },
+      "id": "9102c830-b436-4199-84f0-afbf21dd457d",
+      "displayName": "Power Virtual Agents Flow Template",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-03-18T07:26:00.082Z",
+      "updatedTime": "2021-03-18T07:26:00.082Z"
+    },
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{new_variable_d72431f0cad643189e85045847b16422_f067698f5b3c48039bfde7ebaa1e6a3e}\",\"text_1\":\"{9058a322-ac15-43c2-9340-9d44f14d8769}\",\"text_2\":\"{3590b91a-d5d6-4024-bdee-c8814d4c41c6}\",\"text_4\":\"{8105b8c5-eb72-4a2e-8484-c18b381fd955}\",\"text_3\":\"{fd3c7d93-e07e-4714-8597-0c825d5c91b8}\",\"number\":{cbb8bd5a-d62f-4b98-8e18-a4446f46dab5}}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "0a96e910-b787-eb11-a812-6045bd72626f",
+        "title": "IT Jobs Email",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "Name",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Jobtype",
+            "id": "text_1",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Yesrs of exp",
+            "id": "text_2",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "email",
+            "id": "text_4",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Skills",
+            "id": "text_3",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "ID",
+            "id": "number",
+            "type": "Number",
+            "optional": false
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-03-18T06:56:32Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-03-18T07:02:19Z"
+      },
+      "id": "1177f809-2266-4cae-bd34-1fc5c6cf9735",
+      "displayName": "IT Jobs Email",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-03-18T07:51:57.101Z",
+      "updatedTime": "2021-03-18T07:51:57.101Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "fbd3975b-9239-4ae3-bec2-6c36123f01a1",
+        "546c4738-e528-4fa8-857f-fdc175a3e847",
+        "0586db0c-8a7c-4b24-b39d-0b2529a70928"
+      ],
+      "messages": {
+        "GetValue": [
+          "078300f8-3dd6-45f7-a18a-c208819ea03f"
+        ]
+      },
+      "isGlobal": false,
+      "id": "14ed46e3-9eb9-4278-9089-5c4461bb3fbf",
+      "displayName": "JobsType",
+      "createdTime": "2021-03-17T06:11:10.279Z",
+      "updatedTime": "2021-03-17T06:11:10.279Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "customTypeId": "65443fe5-f50f-4a12-bbd5-37f18a586221",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "04370cb5-dc45-46af-93e8-ed7f5c16a14f",
+      "isGlobal": false,
+      "id": "b0b3061e-260a-4ffd-83d7-df617ba22f0b",
+      "displayName": "",
+      "createdTime": "2021-03-17T17:45:16.47Z",
+      "updatedTime": "2021-03-17T17:45:16.47Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('b0b3061e-260a-4ffd-83d7-df617ba22f0b')['Jobname']",
+      "isGlobal": false,
+      "id": "1f019d0d-ee06-45e9-8770-9f5d02663bcb",
+      "displayName": "Jobname",
+      "createdTime": "2021-03-17T17:45:16.471Z",
+      "updatedTime": "2021-03-17T17:45:16.471Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "bafb2e0d-f1c5-4941-a2b9-2bc2b592c7cb",
+        "ff9d3df5-76e4-4cfe-9ac5-10e812462f30",
+        "1eae936d-0dbb-44dc-97a6-d31ad95df9ee"
+      ],
+      "messages": {
+        "GetValue": [
+          "3003dbb2-70de-4798-a10b-a5d42b4d6bf0"
+        ]
+      },
+      "isGlobal": false,
+      "id": "3590b91a-d5d6-4024-bdee-c8814d4c41c6",
+      "displayName": "YofExp",
+      "createdTime": "2021-03-18T05:12:19.189Z",
+      "updatedTime": "2021-03-18T05:12:19.189Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "66b0f03b-f65a-4b43-84ab-c735842cb780",
+        "43de709f-4138-4caf-87af-98e33e720195"
+      ],
+      "messages": {
+        "GetValue": [
+          "8076d16e-b70a-4916-b592-97324eaa2595"
+        ]
+      },
+      "isGlobal": false,
+      "id": "76851222-d76a-4268-9f6d-72e5f431532c",
+      "displayName": "Var",
+      "createdTime": "2021-03-18T05:36:56.932Z",
+      "updatedTime": "2021-03-18T05:36:56.932Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "ac1e15c5-cb47-4b3d-a829-4e8e944c2b03"
+        ]
+      },
+      "isGlobal": false,
+      "id": "cbb8bd5a-d62f-4b98-8e18-a4446f46dab5",
+      "displayName": "id",
+      "createdTime": "2021-03-18T05:39:35.065Z",
+      "updatedTime": "2021-03-18T05:39:35.065Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Email",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "984c7c3f-3712-402e-a6c9-bb680201f30f"
+        ]
+      },
+      "isGlobal": false,
+      "id": "8105b8c5-eb72-4a2e-8484-c18b381fd955",
+      "displayName": "email",
+      "createdTime": "2021-03-18T05:41:00.212Z",
+      "updatedTime": "2021-03-18T05:41:00.212Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "3275b3e6-085a-4dfd-8183-7ae74e9ef7e1"
+        ]
+      },
+      "isGlobal": false,
+      "id": "10ffd5db-936f-4703-bb43-44b5ce25e6ea",
+      "displayName": "phoneN",
+      "createdTime": "2021-03-18T07:08:39.882Z",
+      "updatedTime": "2021-03-18T07:08:39.882Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "97e4f9c4-daad-444f-8fae-553dca29d101",
+        "87bfbeb3-2b36-49a1-ba1e-434ca93c8a3c",
+        "90e77c1a-23c5-407d-85b1-d47c91044d17"
+      ],
+      "messages": {
+        "GetValue": [
+          "6f1a3ffa-17cd-4c51-b84e-f1ffe9559ea0"
+        ]
+      },
+      "isGlobal": false,
+      "id": "420cd02f-c31b-45f2-8568-86e28912f7d2",
+      "displayName": "Var1",
+      "createdTime": "2021-03-18T07:26:17.43Z",
+      "updatedTime": "2021-03-18T07:26:17.43Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "customTypeId": "82a98731-2ea9-4c8a-bbb1-9e0c0b052caa",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "9102c830-b436-4199-84f0-afbf21dd457d",
+      "isGlobal": false,
+      "id": "01380a48-8302-4a45-92ef-ca44077c73aa",
+      "displayName": "",
+      "createdTime": "2021-03-18T07:26:00.083Z",
+      "updatedTime": "2021-03-18T07:26:00.083Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('01380a48-8302-4a45-92ef-ca44077c73aa')['jobs_name']",
+      "isGlobal": false,
+      "id": "8accc36f-9a5d-43b2-8186-40b55ca50e2e",
+      "displayName": "jobsname",
+      "createdTime": "2021-03-18T07:26:00.084Z",
+      "updatedTime": "2021-03-18T07:26:00.084Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "3f05841e-e626-44db-be77-74f72e58e69d",
+        "1ba9453f-53ca-4d2d-8d73-66dc601bc0af"
+      ],
+      "messages": {
+        "GetValue": [
+          "4f284926-9d2b-4bfb-aa29-c80191db257e"
+        ]
+      },
+      "isGlobal": false,
+      "id": "c63aa553-4692-4ec4-a8eb-1f79f9283266",
+      "displayName": "Var2",
+      "createdTime": "2021-03-18T07:37:03.383Z",
+      "updatedTime": "2021-03-18T07:37:03.383Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "da1666e7-7543-40b4-aa43-6b40f3be6dd4",
+        "53ed8fed-c45d-40c9-a855-71325e329e38"
+      ],
+      "messages": {
+        "GetValue": [
+          "06f28bc4-42a3-4f72-98e9-2aa5f388e2f4"
+        ]
+      },
+      "isGlobal": false,
+      "id": "9058a322-ac15-43c2-9340-9d44f14d8769",
+      "displayName": "morJavaJob",
+      "createdTime": "2021-03-18T07:41:25.174Z",
+      "updatedTime": "2021-03-18T07:41:25.174Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "systemType": "None",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "7f6c2c59-c550-4596-8030-4606788d7f73"
+        ]
+      },
+      "isGlobal": false,
+      "id": "fd3c7d93-e07e-4714-8597-0c825d5c91b8",
+      "displayName": "Skills",
+      "createdTime": "2021-03-18T07:50:28.464Z",
+      "updatedTime": "2021-03-18T07:50:28.464Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "customTypeId": "f4e762e9-1108-4276-b033-3f3b873ccf48",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "1177f809-2266-4cae-bd34-1fc5c6cf9735",
+      "isGlobal": false,
+      "id": "5793a826-cb2f-4826-a3b2-7628587a3e8a",
+      "displayName": "",
+      "createdTime": "2021-03-18T07:51:57.102Z",
+      "updatedTime": "2021-03-18T07:51:57.102Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z",
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "65443fe5-f50f-4a12-bbd5-37f18a586221",
+      "displayName": "Response Json Type for Flow - JavaDev",
+      "createdTime": "2021-03-17T17:45:16.47Z",
+      "updatedTime": "2021-03-17T17:45:16.47Z"
+    },
+    {
+      "customTypeSchema": "Json",
+      "id": "82a98731-2ea9-4c8a-bbb1-9e0c0b052caa",
+      "displayName": "Response Json Type for Flow - Power Virtual Agents Flow Template",
+      "createdTime": "2021-03-18T07:26:00.083Z",
+      "updatedTime": "2021-03-18T07:26:00.083Z"
+    },
+    {
+      "customTypeSchema": "Json",
+      "id": "f4e762e9-1108-4276-b033-3f3b873ccf48",
+      "displayName": "Response Json Type for Flow - IT Jobs Email",
+      "createdTime": "2021-03-18T07:51:57.102Z",
+      "updatedTime": "2021-03-18T07:51:57.102Z"
+    }
+  ]
+}

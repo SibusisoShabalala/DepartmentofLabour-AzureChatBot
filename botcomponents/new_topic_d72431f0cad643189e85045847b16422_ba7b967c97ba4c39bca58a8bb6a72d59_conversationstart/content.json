@@ -1,0 +1,236 @@
+{
+  "intents": [
+    {
+      "systemIntentTypes": [
+        "ConversationStart",
+        "Greeting"
+      ],
+      "intentType": "System",
+      "triggerQueries": [
+        "Good afternoon",
+        "Good morning",
+        "Hello",
+        "Hello agent!",
+        "Hello and good morning to you",
+        "Hello can you help me?",
+        "Hello can you please help me",
+        "Hello friend",
+        "Hello good afternoon",
+        "Hello good evening",
+        "Hello greeting",
+        "Hello how are you",
+        "Hello how are you doing?",
+        "Hello how are you?",
+        "Hello I need help",
+        "Hello madam",
+        "Hello my friend",
+        "Hello sir",
+        "Hello support",
+        "Hello team",
+        "Hello there",
+        "Hello there, how are you?",
+        "Hello virtual agent",
+        "Hello!",
+        "Hello, good day to you",
+        "Hello, good evening",
+        "Hello, good morning",
+        "Hello, how are you doing today?",
+        "Hello, how are you?",
+        "Hello, I need help",
+        "Hey",
+        "Hey !",
+        "Hey :)",
+        "Hey good morning",
+        "Hey how are u",
+        "Hey I need help",
+        "Hey man",
+        "Hi",
+        "Hi agent",
+        "Hi can you help me",
+        "Hi good afternoon",
+        "Hi good day",
+        "Hi good evening",
+        "Hi how are you",
+        "Hi how are you doing today?",
+        "Hi I hope you can help me",
+        "Hi I need help",
+        "Hi I need help here",
+        "Hi support",
+        "Hi support team",
+        "Hi there!",
+        "Hi virtual agent"
+      ],
+      "dialogId": "new_topic_d72431f0cad643189e85045847b16422_ba7b967c97ba4c39bca58a8bb6a72d59_conversationstart",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_d72431f0cad643189e85045847b16422_ba7b967c97ba4c39bca58a8bb6a72d59_conversationstart",
+      "displayName": "Greeting",
+      "description": "This is the default greeting when a chat begins. Start by having your bot or virtual agent introduce itself. When building out topics, consider whether you need to comply with applicable local law.",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2021-03-18T22:34:11.9797073Z",
+      "createdUserId": "user0",
+      "updatedUserId": "user0"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "61e96388-6c70-4fff-969e-27b5319ae5e8",
+      "displayName": "Register for UIF"
+    },
+    {
+      "id": "1ce65f77-73cc-4cfc-9da1-401081e55948",
+      "displayName": "Apply for Unemployment Benefit"
+    },
+    {
+      "id": "94c54215-7b54-4c73-b680-dd8a57f21b96",
+      "displayName": "Book for Appointment"
+    },
+    {
+      "id": "9699d93d-0f03-4e08-86f1-c9e8d4744eee",
+      "displayName": "Online Jobs"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "8a32ebd1-bec3-4cde-a75a-1977a561b019",
+      "dialogType": "System",
+      "messageNodes": [
+        {
+          "botMessageId": "987e1575-01b0-467b-a98e-33f113cb7dcb",
+          "nodeType": "BotMessageNode",
+          "id": "8a32ebd1-bec3-4cde-a75a-1977a561b019",
+          "defaultTargetNodeId": "768db8e6-1db0-4117-a5d4-0ebd7f7ac2b3"
+        },
+        {
+          "botMessageId": "1edf5849-e499-4a6d-9fed-2a9ca0e43c87",
+          "nodeType": "BotMessageNode",
+          "id": "768db8e6-1db0-4117-a5d4-0ebd7f7ac2b3",
+          "defaultTargetNodeId": "3841d811-767d-436f-99b0-05efbf654f9a"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_c4081fdc506d405db64d124d1903974b",
+          "nodeType": "DialogChangeNode",
+          "id": "406a7584-23d3-4a91-af36-291108b9e792"
+        },
+        {
+          "targetDialogId": "new_topic_031cdc38b0c548cd9c91103811689f1d",
+          "nodeType": "DialogChangeNode",
+          "id": "c9627f94-8a02-47f1-8eb7-214df4c3329d"
+        },
+        {
+          "targetDialogId": "new_topic_07761e73540846cf96105c45829c3dd9",
+          "nodeType": "DialogChangeNode",
+          "id": "df720f03-e9b4-4e82-bf53-6005b9f73502"
+        },
+        {
+          "targetDialogId": "new_topic_36ce08e3e3f9475499aa3ec1f9fdde0d",
+          "nodeType": "DialogChangeNode",
+          "id": "64d4866c-2252-40a1-a156-8225558986b9"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "0d475a4e-8530-4604-ad40-8150080f96ad",
+          "nodeType": "QuestionNode",
+          "id": "3841d811-767d-436f-99b0-05efbf654f9a",
+          "routes": [
+            {
+              "expression": "@equals(parameters('0d475a4e-8530-4604-ad40-8150080f96ad'), '61e96388-6c70-4fff-969e-27b5319ae5e8')",
+              "targetNodeId": "406a7584-23d3-4a91-af36-291108b9e792"
+            },
+            {
+              "expression": "@equals(parameters('0d475a4e-8530-4604-ad40-8150080f96ad'), '1ce65f77-73cc-4cfc-9da1-401081e55948')",
+              "targetNodeId": "c9627f94-8a02-47f1-8eb7-214df4c3329d"
+            },
+            {
+              "expression": "@equals(parameters('0d475a4e-8530-4604-ad40-8150080f96ad'), '94c54215-7b54-4c73-b680-dd8a57f21b96')",
+              "targetNodeId": "df720f03-e9b4-4e82-bf53-6005b9f73502"
+            },
+            {
+              "expression": "@equals(parameters('0d475a4e-8530-4604-ad40-8150080f96ad'), '9699d93d-0f03-4e08-86f1-c9e8d4744eee')",
+              "targetNodeId": "64d4866c-2252-40a1-a156-8225558986b9"
+            }
+          ],
+          "defaultTargetNodeId": "3841d811-767d-436f-99b0-05efbf654f9a"
+        }
+      ],
+      "id": "new_topic_d72431f0cad643189e85045847b16422_ba7b967c97ba4c39bca58a8bb6a72d59_conversationstart",
+      "displayName": "Dialog",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2021-03-18T22:43:15.3813058Z",
+      "createdUserId": "user0",
+      "updatedUserId": "f58baec1-f3f9-4a66-a4e3-d2930d93b90a"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Hi! I'm a virtual agent. I can help with all UIF  related queries including online jobs available in our organization."
+        }
+      },
+      "id": "987e1575-01b0-467b-a98e-33f113cb7dcb",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2019-01-15T00:00:00Z",
+      "createdUserId": "user0",
+      "updatedUserId": "user0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "PlainText",
+          "content": "If you'd like to speak to a human agent, let me know at any time."
+        }
+      },
+      "id": "1edf5849-e499-4a6d-9fed-2a9ca0e43c87",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2019-01-15T00:00:00Z",
+      "createdUserId": "user0",
+      "updatedUserId": "user0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Here are the thing I can help you with."
+        }
+      },
+      "id": "d41e9661-cb67-4243-a8c6-dfa77a6d8263",
+      "createdTime": "2021-03-18T22:29:20.236Z",
+      "updatedTime": "2021-03-18T22:29:20.236Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "61e96388-6c70-4fff-969e-27b5319ae5e8",
+        "1ce65f77-73cc-4cfc-9da1-401081e55948",
+        "94c54215-7b54-4c73-b680-dd8a57f21b96",
+        "9699d93d-0f03-4e08-86f1-c9e8d4744eee"
+      ],
+      "messages": {
+        "GetValue": [
+          "d41e9661-cb67-4243-a8c6-dfa77a6d8263"
+        ]
+      },
+      "isGlobal": false,
+      "id": "0d475a4e-8530-4604-ad40-8150080f96ad",
+      "displayName": "Var",
+      "createdTime": "2021-03-18T22:29:20.237Z",
+      "updatedTime": "2021-03-18T22:29:20.237Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}

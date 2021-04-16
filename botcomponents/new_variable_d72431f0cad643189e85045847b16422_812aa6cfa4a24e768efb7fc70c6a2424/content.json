@@ -1,0 +1,25 @@
+{
+  "contextVariables": [
+    {
+      "systemType": "Number",
+      "initializerType": "UserQuestion",
+      "scope": "Session",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "f1666a77-35f8-4f74-84dc-26fae889a219"
+        ]
+      },
+      "isGlobal": true,
+      "id": "new_variable_d72431f0cad643189e85045847b16422_812aa6cfa4a24e768efb7fc70c6a2424",
+      "displayName": "IDN",
+      "createdTime": "2021-03-18T12:10:27.639Z",
+      "updatedTime": "2021-03-18T12:10:27.639Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}

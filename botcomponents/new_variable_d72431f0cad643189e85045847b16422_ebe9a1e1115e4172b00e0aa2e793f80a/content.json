@@ -1,0 +1,44 @@
+{
+  "namedEntities": [
+    {
+      "id": "32c0fe67-d7cf-4418-a128-d6b9bd6eb2dd",
+      "displayName": "Mrs"
+    },
+    {
+      "id": "5bb5d321-1bcd-43ef-960b-e102b9f1164e",
+      "displayName": "Miss"
+    },
+    {
+      "id": "49053e9c-57f2-4af2-bd70-5f040a46cf7b",
+      "displayName": "Mr"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Session",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "32c0fe67-d7cf-4418-a128-d6b9bd6eb2dd",
+        "5bb5d321-1bcd-43ef-960b-e102b9f1164e",
+        "49053e9c-57f2-4af2-bd70-5f040a46cf7b"
+      ],
+      "messages": {
+        "GetValue": [
+          "327336bb-7710-4306-b419-1a66fdb74d9e"
+        ]
+      },
+      "isGlobal": true,
+      "id": "new_variable_d72431f0cad643189e85045847b16422_ebe9a1e1115e4172b00e0aa2e793f80a",
+      "displayName": "Title",
+      "createdTime": "2021-03-18T12:04:14.131Z",
+      "updatedTime": "2021-03-18T12:04:14.131Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z"
+}
